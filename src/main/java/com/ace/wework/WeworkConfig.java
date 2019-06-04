@@ -1,3 +1,5 @@
+package com.ace.wework;
+
 public class WeworkConfig {
     public String AgentId="1000005";
     public String Secret="1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY";
@@ -10,6 +12,9 @@ public class WeworkConfig {
             weworkConfig=new WeworkConfig();
         }
         return weworkConfig;
+    }
+    public static void load(String path){
+        // todo: read from yaml or json
     }
 
 }
