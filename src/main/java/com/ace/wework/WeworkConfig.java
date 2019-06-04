@@ -1,10 +1,10 @@
 package com.ace.wework;
 
 public class WeworkConfig {
-    public String AgentId="1000005";
-    public String Secret="1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY";
-    public String corpid="wwd6da61649bd66fea";
-    public String contactSecret="C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U";
+    public String AgentId="3010011";
+    public String Secret="grP8wzPCp8Ki4o_2WKShNRCF1zY4upXch-oAmSu50Vw";
+    public String corpid="ww264c888618add6be";
+    public String contactSecret="nqH7bbGyzJCaCRQHvkA6Lo0lsZI7ihwR0BsRStuyjAE";
 
     private static WeworkConfig weworkConfig;
     public static WeworkConfig getInstance(){
