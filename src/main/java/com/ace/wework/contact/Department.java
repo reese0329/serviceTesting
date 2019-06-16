@@ -1,6 +1,8 @@
 package com.ace.wework.contact;
 
 import com.ace.wework.Wework;
+import com.jayway.jsonpath.JsonPath;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
@@ -13,14 +15,35 @@ public class Department {
                 .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/list")
                 .then().log().all().statusCode(200).extract().response();
     }
-    public Response create(String name ,String parentid){
-        return given().log().all().queryParam("access_token",Wework.getToken())
-                .body("{\n"+
-                        "  \"name\": \""+ name +"\",\n"+
-                "  \"parentid\":" + parentid + ",\n" +
-                "  \"order\": 1,\n"+
-                "}")
+
+
+    public Response create(String name){
+        String body=JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"))
+                .set("$.name",name)
+//                .set("id",id)
+                .jsonString();
+        return given().log().all()
+                .contentType(ContentType.JSON)
+                .queryParam("access_token",Wework.getToken())
+                .body(body)
                 .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
                 .then().log().all().statusCode(200).extract().response();
+    }
+
+    public Response update(String name,String id){
+        String body = JsonPath.parse(this.getClass().getResourceAsStream("/data/update.json"))
+                .set("$.name",name)
+                .set("$.id",id).jsonString();
+        return given().log().all().queryParam("access_token",Wework.getToken())
+                .body(body)
+                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/update")
+                .then().log().all().statusCode(200).extract().response();
+    }
+
+    public Response delete(String id){
+        return given().log().all().queryParam("access_token",Wework.getToken())
+                .queryParam("id",id)
+                .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/delete")
+                .then().log().all().extract().response();
     }
 }
