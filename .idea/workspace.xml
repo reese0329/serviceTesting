@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5033506e-5348-4573-b4ee-687ceb86f224" name="Default Changelist" comment="createDepartment">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/update.json" afterDir="false" />
+    <list default="true" id="5033506e-5348-4573-b4ee-687ceb86f224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ace/wework/Restful.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ace/wework/Restful.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGetToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGetToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ace/wework/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ace/wework/contact/DepartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestGetToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestGetToken.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -47,17 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/WeworkConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="132">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,37 +65,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/update.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/data/create.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ace/wework/contact/DepartmentTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Tag.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ace/wework/contact/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="-550">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/Restful.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="11" column="19" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#200#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Contact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/Wework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="418">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,10 +133,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>given</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,6 +159,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/data/update.json" />
         <option value="$PROJECT_DIR$/src/main/resources/data/create.json" />
         <option value="$PROJECT_DIR$/src/test/java/TestGetToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ace/wework/Restful.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Contact.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Department.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ace/wework/contact/DepartmentTest.java" />
       </list>
@@ -161,10 +174,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="467" />
-    <option name="y" value="42" />
-    <option name="width" value="1300" />
-    <option name="height" value="962" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,6 +264,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ServiceTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServiceTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -267,7 +285,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -292,7 +313,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest.delete">
+  <component name="RunManager" selected="JUnit.DepartmentTest">
+    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ServiceTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ace.wework.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ace.wework.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.ace.wework.contact.DepartmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepartmentTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ServiceTesting" />
       <extension name="coverage">
@@ -325,7 +361,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepartmentTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ServiceTesting" />
       <extension name="coverage">
         <pattern>
@@ -335,7 +371,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ace.wework.contact" />
       <option name="MAIN_CLASS_NAME" value="com.ace.wework.contact.DepartmentTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="list" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,23 +393,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGetToken.createDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ServiceTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGetToken" />
-      <option name="METHOD_NAME" value="createDepartment" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DepartmentTest" />
+        <item itemvalue="JUnit.DepartmentTest.update" />
         <item itemvalue="JUnit.DepartmentTest.delete" />
         <item itemvalue="JUnit.DepartmentTest.create" />
-        <item itemvalue="JUnit.TestGetToken.createDepartment" />
-        <item itemvalue="JUnit.DepartmentTest.update" />
-        <item itemvalue="JUnit.DepartmentTest.test" />
+        <item itemvalue="JUnit.DepartmentTest.list" />
       </list>
     </recent_temporary>
   </component>
@@ -423,39 +449,46 @@
       <option name="project" value="LOCAL" />
       <updated>1559641267896</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update&amp;deleteDepartment">
+      <created>1560658579300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560658579300</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentTest_delete - 2019.06.16 at 11h 14m 39s.xml">
-      <configuration name="DepartmentTest.delete" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.06.16 at 17h 45m 01s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_delete - 2019.06.16 at 11h 16m 27s.xml">
-      <configuration name="DepartmentTest.delete" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_create - 2019.06.16 at 17h 46m 22s.xml">
+      <configuration name="DepartmentTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_delete - 2019.06.16 at 11h 17m 32s.xml">
-      <configuration name="DepartmentTest.delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentTest_update - 2019.06.16 at 11h 35m 04s.xml">
+    <history-entry file="DepartmentTest_update - 2019.06.16 at 21h 44m 44s.xml">
       <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_update - 2019.06.16 at 11h 36m 45s.xml">
+    <history-entry file="DepartmentTest_delete - 2019.06.16 at 21h 47m 26s.xml">
+      <configuration name="DepartmentTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentTest_delete - 2019.06.16 at 21h 51m 23s.xml">
+      <configuration name="DepartmentTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentTest_update - 2019.06.16 at 21h 52m 11s.xml">
       <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_create - 2019.06.16 at 11h 40m 14s.xml">
-      <configuration name="DepartmentTest.create" configurationId="JUnit" />
+    <history-entry file="DepartmentTest_update - 2019.06.16 at 22h 04m 35s.xml">
+      <configuration name="DepartmentTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DepartmentTest_create - 2019.06.16 at 11h 51m 09s.xml">
-      <configuration name="DepartmentTest.create" configurationId="JUnit" />
+    <history-entry file="DepartmentTest - 2019.06.16 at 22h 04m 45s.xml">
+      <configuration name="DepartmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGetToken_createDepartment - 2019.06.16 at 12h 00m 21s.xml">
-      <configuration name="TestGetToken.createDepartment" configurationId="JUnit" />
+    <history-entry file="DepartmentTest - 2019.06.16 at 22h 07m 00s.xml">
+      <configuration name="DepartmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGetToken_createDepartment - 2019.06.16 at 12h 08m 53s.xml">
-      <configuration name="TestGetToken.createDepartment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentTest_create - 2019.06.16 at 12h 11m 36s.xml">
-      <configuration name="DepartmentTest.create" configurationId="JUnit" />
+    <history-entry file="DepartmentTest - 2019.06.16 at 22h 07m 36s.xml">
+      <configuration name="DepartmentTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -471,7 +504,7 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20226537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20226537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,12 +513,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4948097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32871974" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298731" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32871974" />
@@ -505,7 +538,8 @@
     <MESSAGE value="单例配置" />
     <MESSAGE value="getDepartmentList" />
     <MESSAGE value="createDepartment" />
-    <option name="LAST_COMMIT_MESSAGE" value="createDepartment" />
+    <MESSAGE value="update&amp;deleteDepartment" />
+    <option name="LAST_COMMIT_MESSAGE" value="update&amp;deleteDepartment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,20 +556,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/WeworkConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/update.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -557,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/Wework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestGetToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -577,29 +587,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Department.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/create.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/Wework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/create.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/WeworkConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="418">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/Restful.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="19" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ace/wework/contact/DepartmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="-550">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ace/wework/contact/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ServiceTesting</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

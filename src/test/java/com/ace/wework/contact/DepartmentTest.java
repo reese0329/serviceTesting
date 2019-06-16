@@ -30,7 +30,7 @@ class DepartmentTest {
 
     @Test
     void create() {
-        department.create("测试部")
+        department.create("测试"+random)
                 .then().body("errcode", equalTo(0));
     }
 
@@ -45,7 +45,8 @@ class DepartmentTest {
     void update() {
         String nameOld="HR_18"+random;
         department.create(nameOld);
-        String id=String.valueOf(department.list("").path("department.find{ it.name=='"+ nameOld +"'}.id"));
+        Integer idInt=department.list("").path("department.find{ it.name=='" + nameOld + "'}.id");
+        String id=String.valueOf(idInt);
         department.update("HR061613"+random, id)
                 .then().body("errcode", equalTo(0));
     }
@@ -60,9 +61,10 @@ class DepartmentTest {
 ////    }
 //
     {
-        String nameOld ="测试部2";
+        String nameOld ="测试部2"+random;
         department.create(nameOld);
-        String id = String.valueOf(department.list("").path("department.find{ it.name=='" + nameOld + "'}.id"));
+        Integer idInt=department.list("").path("department.find{ it.name=='" + nameOld + "'}.id");
+        String id=String.valueOf(idInt);
         department.delete(id)
                 .then().body("errcode", equalTo(0));
    }
