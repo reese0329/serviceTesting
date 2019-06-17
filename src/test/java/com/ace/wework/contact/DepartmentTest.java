@@ -4,6 +4,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashMap;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -69,6 +71,14 @@ class DepartmentTest {
                 .then().body("errcode", equalTo(0));
    }
 
+    @Test
+    void create1() {
+        HashMap<String, Object>map=new HashMap<String, Object>(){
+            {put("name","test"+random);
+            put("parentid","1");}
+        };
+        department.create(map).then().body("errcode",equalTo(0));
+    }
 }
 
 

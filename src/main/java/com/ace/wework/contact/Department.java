@@ -1,9 +1,12 @@
 package com.ace.wework.contact;
 
 import com.ace.wework.Wework;
+import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
+import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
@@ -18,7 +21,6 @@ public class Department extends Contact {
         return response;
     }
 
-
     public Response create(String name){
         reset();          //reset 清空数据
         String body=JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"))
@@ -27,6 +29,20 @@ public class Department extends Contact {
                 .jsonString();
         return requestSpecification
                 .body(body)
+                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
+                .then().extract().response();
+    }
+
+
+    public Response create(HashMap<String,Object>map){
+        reset();          //reset 清空数据
+        DocumentContext documentContext=JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"));
+        map.entrySet().forEach(entry->{
+            documentContext.set(entry.getKey(),entry.getValue());
+        });
+
+        return requestSpecification
+                .body(documentContext.jsonString())
                 .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
                 .then().extract().response();
     }
