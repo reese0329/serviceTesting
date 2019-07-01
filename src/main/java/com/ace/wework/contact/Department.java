@@ -7,11 +7,14 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 
 public class Department extends Contact {
+    public static com.ace.wework.contact.Department department;
+
     public Response list(String id){
         Response response= requestSpecification
                 .param("id",id)
@@ -64,5 +67,12 @@ public class Department extends Contact {
                 .queryParam("id",id)
                 .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/delete")
                 .then().extract().response();
+    }
+    public Response deleteAll(){
+        reset();
+        List<Integer> idList=list("").then().extract().path("department.id");
+        System.out.println(idList);
+        idList.forEach(id->delete(id.toString()));
+        return null;
     }
 }

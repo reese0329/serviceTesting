@@ -17,13 +17,13 @@ class DepartmentTest {
     void setUp() {
         if (department == null) {
             department = new Department();
+            department.deleteAll();
         }
     }
 
     @Test
     void list() {
-        department.list("").then().statusCode(200)
-                .body("department.name[0]", equalTo("ace"));
+        department.list("").then().statusCode(200);
 //        department.list("39").then().statusCode(200)
 //                .body("department.name[0]",equalTo("ningningCenterdd"))
 //        .body("department.id[0]",equalTo(39));
@@ -79,6 +79,8 @@ class DepartmentTest {
         };
         department.create(map).then().body("errcode",equalTo(0));
     }
+
+
 }
 
 
